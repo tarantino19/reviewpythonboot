@@ -13,6 +13,18 @@ print(full_name)
 # prints "Lane Wagner"
 
 
+fruits = {"apple", "banana", "grape"}
+print(type(fruits))
+
+vegetables = ["carrot", "broccoli", "spinach"]
+what_type = type(vegetables)
+
+print(what_type)
+# Prints: <class 'list'>
+
+print(what_type.__name__)
+# Prints: list
+
 
 name = "Lopen"
 level = 25
@@ -211,6 +223,13 @@ print(not True)
 print(not False)
 # Prints: True
 
+# 'is not' is the preferred way to check if a variable is not None
+my_variable = "Python"
+
+if my_variable is not None:
+    print("The variable has a value.")
+    
+    
 
 kind alike !true in JavaScript
 
